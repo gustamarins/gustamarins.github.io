@@ -1,0 +1,12 @@
+div{
+    background-color:aqua ;
+    color:crimson;
+    width: 120px;
+    margin: 20px 0;
+    padding: 10px 0;
+    text-align:center;
+    font-size: 30px;
+    font-family:initial;
+}
+/* margin: 20px, 30px, 40px, 50px
+cima, direita, baixo, squerda*/
