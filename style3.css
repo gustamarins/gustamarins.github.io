@@ -1,0 +1,59 @@
+.inicio{
+    
+    background-color: rgb(255, 77, 0);
+    border: 3px dashed rgb(0, 0, 0);
+    text-align: center;
+    padding: 10px 0px
+
+}
+
+.banner{
+
+    background-color: gray;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin: 10px 0;
+
+}
+
+#border{
+
+    border-radius: 10px;
+
+}
+
+#azul{
+
+    color: aqua;
+
+}
+
+#metade{
+
+    width: 50%;
+
+}
+
+.banner div{
+
+    background-color: rgb(255, 255, 255);
+    color: rgb(21, 0, 255);
+    margin: 10px 0px;
+
+}
+
+div.Fixa{
+
+    color:yellow;
+    border: 3px solid red;
+    background-color: cornflowerblue;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    border-radius: 10px;
+    position: fixed;
+    bottom: 20px;
+    right: 50px;
+
+}
