@@ -1,0 +1,50 @@
+body{
+
+    margin: 0;
+
+}
+
+.menu{
+
+    background-color: rgb(0, 89, 130);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 15px;
+    height: 80px;
+
+}
+
+.menu div{
+
+    display: flex;
+    height: 100%;
+    align-items: center;
+
+}
+
+.menu a{
+
+    color: white;
+    text-decoration: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 0 15px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+
+}
+
+.menu a:hover{
+
+    text-decoration: underline;
+    background-color: rgb(2, 93, 251);
+    cursor: pointer;
+    
+}
+
+.menu img{
+
+    height: 35px;
+
+}

@@ -1,0 +1,84 @@
+body{
+
+    margin: 0;
+
+}
+
+.menu{
+
+    background-color: rgb(155, 238, 231);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80px;
+    gap: 120px;
+
+}
+
+.menu div{
+
+    display: flex;
+    height: 100%;
+    align-items: center;
+    gap: 0px;
+
+}
+
+.menu a{
+
+    color: rgb(28, 175, 188);
+    text-decoration: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 0 20px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+
+}
+
+.menu a:hover{
+
+    text-decoration: underline;
+    background-color: rgb(255, 255, 255);
+    cursor: pointer;
+    
+}
+
+.menu img{
+
+    height: 35px;
+
+}
+
+.menu text{
+
+    padding: 0 50px;
+
+}
+
+.menu input{
+
+    border-radius: 7px;
+    border: none;
+
+}
+
+.menu i{
+
+    color:blue
+
+}
+
+.carro img{
+
+    padding: 20px;
+    height: 250px;
+
+}
+
+.carro2 img{
+
+    padding: 20px;
+    height: 280px;
+
+}
