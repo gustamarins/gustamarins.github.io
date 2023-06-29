@@ -1,22 +1,24 @@
 body{
 
     margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 
 }
 
 .menu{
 
-    background-color: rgb(155, 238, 231);
+    background-color: rgb(255, 255, 255);
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 80px;
-    gap: 120px;
+    height: 70px;
+    gap: 60px;
 
 }
 
 .menu div{
-
     display: flex;
     height: 100%;
     align-items: center;
@@ -25,8 +27,7 @@ body{
 }
 
 .menu a{
-
-    color: rgb(28, 175, 188);
+    color: rgb(255, 0, 0);
     text-decoration: none;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     padding: 0 20px;
@@ -46,8 +47,7 @@ body{
 
 .menu img{
 
-    height: 35px;
-
+    height: 115px;
 }
 
 .menu text{
@@ -65,20 +65,117 @@ body{
 
 .menu i{
 
-    color:blue
+    color:rgb(0, 0, 0)
 
 }
 
-.carro img{
+.cards{
 
-    padding: 20px;
-    height: 250px;
+    color: aliceblue;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 25px;
+    gap: 25px
 
 }
 
-.carro2 img{
+.cards > a{
 
-    padding: 20px;
-    height: 280px;
+background-color: rgb(244, 244, 244);
+width: 200px;
+border: 5px solid rgb(0, 0, 0);
+display: flex;
+flex-direction: column;
+gap: 10px;
+border-radius: 10px;
+padding: 5px;
+
+}
+
+.cards > a:hover{
+
+background-color: rgb(255, 0, 0);
+
+}
+
+.cards > a > img{
+
+width: 100%;
+height: 130px;
+
+}
+
+.cards > a > div{
+
+background-color: rgb(20, 20, 20);
+height: 57px;
+display: flex;
+gap: 0px;
+
+}
+
+.cards > a > div > div{
+
+height: 38px;
+
+}
+
+.info div{
+
+    color: rgb(0, 0, 0);
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+    padding: 40px 180px;
+    height: 40px;
+    border: 10px solid rgb(0, 0, 0);
+
+}
+
+.cont div{
+
+    color: rgb(0, 0, 0);
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+    padding: 40px 0;
+    border: 10px solid rgb(0, 0, 0);
+
+}
+
+.tudo div{
+
+    text-align: center;
+    padding: 10px;
+    color: rgb(0, 0, 0);
+
+}
+
+.tudo img{
+
+    height: 170px;
+
+}
+
+.tudo div input{
+
+    border: none;
+    border-bottom: 2px solid rgb(0, 0, 0);
+
+}
+
+.catalogo a{
+
+    color: red;
+
+
+}
+
+.catalogo{
+
+    border: 2px solid red;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 200px;
+    gap: 8px;
 
 }
