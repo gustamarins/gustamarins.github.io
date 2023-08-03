@@ -1,0 +1,43 @@
+body{
+
+    margin: 0;
+    margin-top: 110px;;
+
+}
+
+.navbar{
+
+    background-color: blue;
+    height: 80px;
+    margin-bottom: 30px;
+    width: 100%;
+    position: fixed;
+    top: 0px;
+
+}
+
+.corpo{
+
+    display: flex;
+    margin: 0 30px;
+    justify-content: right;
+
+}
+
+.lateral{
+
+    background-color: rgb(255, 0, 0);
+    height: calc(100vh - 130px);
+    width: 200px;
+    position: fixed;
+    left: 30px;
+
+
+}
+
+.main{
+
+    background-color: rgb(255, 230, 0);
+    width: calc(100% - 230px);
+
+}
