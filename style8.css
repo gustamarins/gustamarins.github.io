@@ -7,12 +7,55 @@ body{
 
 .navbar{
 
-    background-color: blue;
+    background-color: rgb(255, 0, 0);
     height: 80px;
     margin-bottom: 30px;
     width: 100%;
     position: fixed;
     top: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+
+
+}
+
+.navbar > a, .dropdown, .dropdown a{
+
+    background-color: aqua;
+    padding: 5px;
+    border-radius: 5px;
+    color: white ;
+
+}
+
+.navbar a:hover{
+
+    background-color: coral;
+
+}
+
+.dropdown{
+
+    display: none;
+
+}
+
+.dropdown div{
+
+    background-color: blueviolet;
+    border-radius: 4px;
+    position: absolute;
+    flex-direction: column;
+    display: none;
+
+}
+
+.dropdown:hover div{
+
+    display: block;
+    display: flex;
 
 }
 
@@ -39,5 +82,37 @@ body{
 
     background-color: rgb(255, 230, 0);
     width: calc(100% - 230px);
+
+}
+
+@media (max-width: 800px){
+
+    .lateral{
+
+        display: none;
+
+    }
+    .main{
+
+        background-color: aqua;
+        width: 100%;
+
+    }
+    
+}
+
+@media (max-width: 550px){
+
+    .navbar > a{
+
+        display: none;
+
+    }
+
+    .dropdown{
+
+        display: block;
+
+    }
 
 }
