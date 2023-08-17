@@ -1,0 +1,55 @@
+body{
+
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.menu{
+
+    background-color: rgb(255, 255, 255);
+    height: 80px;
+    margin-bottom: 30px;
+    width: 100%;
+    position: fixed;
+    top: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+
+
+}
+
+.menu > div{
+
+    display: flex;
+    height: 170%;
+    align-items: center;
+    gap: 20px;
+
+}
+
+.menu img{
+
+    height: 150px;
+
+}
+
+.menu i{
+
+    color:rgb(0, 0, 0)
+
+}
+
+.lateral{
+
+    background-color: rgb(255, 1, 1);
+    height: calc(100vh - 100px);
+    width: 200px;
+    position: fixed;
+    left: 70px;
+
+
+}
