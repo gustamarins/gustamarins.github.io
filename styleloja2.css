@@ -1,12 +1,11 @@
 body{
 
     margin: 0;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+    margin-top: 110px;;
+
 }
 
-.menu{
+.navbar{
 
     background-color: rgb(255, 255, 255);
     height: 80px;
@@ -22,34 +21,98 @@ body{
 
 }
 
-.menu > div{
+.navbar > a, .dropdown, .dropdown a{
+
+    background-color: aqua;
+    padding: 5px;
+    border-radius: 5px;
+    color: white ;
+
+}
+
+.navbar a:hover{
+
+    background-color: coral;
+
+}
+
+.dropdown{
+
+    display: none;
+
+}
+
+.dropdown div{
+
+    background-color: blueviolet;
+    border-radius: 4px;
+    position: absolute;
+    flex-direction: column;
+    display: none;
+
+}
+
+.dropdown:hover div{
+
+    display: block;
+    display: flex;
+
+}
+
+.corpo{
 
     display: flex;
-    height: 170%;
-    align-items: center;
-    gap: 20px;
-
-}
-
-.menu img{
-
-    height: 150px;
-
-}
-
-.menu i{
-
-    color:rgb(0, 0, 0)
+    margin: 0 30px;
+    justify-content: right;
 
 }
 
 .lateral{
 
-    background-color: rgb(255, 1, 1);
-    height: calc(100vh - 100px);
+    background-color: rgb(255, 255, 255);
+    height: calc(100vh - 130px);
     width: 200px;
     position: fixed;
-    left: 70px;
+    left: 30px;
 
+
+}
+
+.main{
+
+    background-color: rgb(255, 230, 0);
+    width: calc(100% - 230px);
+
+}
+
+@media (max-width: 800px){
+
+    .lateral{
+
+        display: none;
+
+    }
+    .main{
+
+        background-color: aqua;
+        width: 100%;
+
+    }
+    
+}
+
+@media (max-width: 550px){
+
+    .navbar > a{
+
+        display: none;
+
+    }
+
+    .dropdown{
+
+        display: block;
+
+    }
 
 }
