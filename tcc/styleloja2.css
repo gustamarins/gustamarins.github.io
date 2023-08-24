@@ -5,10 +5,10 @@ body{
 
 }
 
-.navbar{
+.menu{
 
     background-color: rgb(255, 255, 255);
-    height: 80px;
+    height: 110px;
     margin-bottom: 30px;
     width: 100%;
     position: fixed;
@@ -21,41 +21,14 @@ body{
 
 }
 
-.navbar > a, .dropdown, .dropdown a{
+.menu img{
 
-    background-color: aqua;
-    padding: 5px;
-    border-radius: 5px;
-    color: white ;
-
+    height: 110px;
 }
 
-.navbar a:hover{
+.menu a:hover{
 
-    background-color: coral;
-
-}
-
-.dropdown{
-
-    display: none;
-
-}
-
-.dropdown div{
-
-    background-color: blueviolet;
-    border-radius: 4px;
-    position: absolute;
-    flex-direction: column;
-    display: none;
-
-}
-
-.dropdown:hover div{
-
-    display: block;
-    display: flex;
+    background-color: rgb(246, 0, 0);
 
 }
 
@@ -69,7 +42,7 @@ body{
 
 .lateral{
 
-    background-color: rgb(255, 255, 255);
+
     height: calc(100vh - 130px);
     width: 200px;
     position: fixed;
@@ -103,16 +76,17 @@ body{
 
 @media (max-width: 550px){
 
-    .navbar > a{
+    .menu > a{
 
         display: none;
 
     }
 
-    .dropdown{
+}
 
-        display: block;
+div a{
 
-    }
+    color: rgb(0, 0, 0);
+    text-decoration: none;
 
 }
