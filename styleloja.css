@@ -10,27 +10,33 @@ body{
 .menu{
 
     background-color: rgb(255, 255, 255);
+    height: 110px;
+    margin-bottom: 10px;
+    width: 100%;
+    position: fixed;
+    top: 0px;
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 70px;
-    gap: 60px;
+    gap: 50px;
 
 }
 
 .menu > div{
+
     display: flex;
-    height: 100%;
+    height: 200%;
     align-items: center;
-    gap: 0px;
+    gap: 50px;
 
 }
 
 .menu a{
-    color: rgb(255, 0, 0);
+
+    color: rgb(0, 0, 0);
     text-decoration: none;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    padding: 0 20px;
+    padding: 100 100px;
     height: 100%;
     display: flex;
     align-items: center;
@@ -47,12 +53,13 @@ body{
 
 .menu img{
 
-    height: 115px;
+    height: 100px;
+
 }
 
 .menu text{
 
-    padding: 0 50px;
+    padding: 0 100px;
 
 }
 
@@ -74,49 +81,56 @@ body{
     color: aliceblue;
     display: flex;
     flex-wrap: wrap;
-    padding: 25px;
-    gap: 25px
+    padding: 170px;
+    gap: 25px;
+
+}
+
+.cards a{
+
+    color: #ffffff;
+    text-decoration: none;
 
 }
 
 .cards > a{
 
-background-color: rgb(244, 244, 244);
-width: 200px;
-border: 5px solid rgb(0, 0, 0);
-display: flex;
-flex-direction: column;
-gap: 10px;
-border-radius: 10px;
-padding: 5px;
+    background-color: rgb(244, 244, 244);
+    width: 200px;
+    border: 5px solid rgb(0, 0, 0);
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    border-radius: 10px;
+    padding: 10px;
 
 }
 
 .cards > a:hover{
 
-background-color: rgb(255, 0, 0);
+    background-color: rgb(255, 0, 0);
 
 }
 
 .cards > a > img{
 
-width: 100%;
-height: 130px;
+    width: 100%;
+    height: 130px;
 
 }
 
 .cards > a > div{
 
-background-color: rgb(20, 20, 20);
-height: 57px;
-display: flex;
-gap: 0px;
+    background-color: rgb(20, 20, 20);
+    height: 57px;
+    display: flex;
+    gap: 0px;
 
 }
 
 .cards > a > div > div{
 
-height: 38px;
+    height: 38px;
 
 }
 
@@ -151,7 +165,7 @@ height: 38px;
 
 .tudo img{
 
-    height: 170px;
+    height: 100px;
 
 }
 
@@ -181,9 +195,56 @@ height: 38px;
 
 }
 
-.formulario div{
+.corpo{
 
-    
+    display: flex;
+    margin: 0 30px;
+    justify-content: right;
 
 }
+
+.lateral{
+
+
+    height: calc(100vh - 130px);
+    width: 200px;
+    position: fixed;
+    left: 30px;
+
+
+}
+
+.main{
+
+    background-color: rgb(255, 230, 0);
+    width: calc(100% - 230px);
+
+}
+
+@media (max-width: 800px){
+
+    .lateral{
+
+        display: none;
+
+    }
+    .main{
+
+        background-color: aqua;
+        width: 100%;
+
+    }
+    
+}
+
+@media (max-width: 550px){
+
+    .menu > a{
+
+        display: none;
+
+    }
+
+}
+
 
