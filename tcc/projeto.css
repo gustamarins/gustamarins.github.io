@@ -52,7 +52,7 @@ body{
 
 .menu img{
 
-    height: 114px;
+    height: 110px;
     
 }
 
@@ -233,8 +233,7 @@ div a{
     color: rgb(0, 0, 0);
     text-align: center;
     background-color: rgb(255, 255, 255);
-    padding: 40px 180px;
-    height: 40px;
+    padding: 60px 0;
     border: 10px solid rgb(0, 0, 0);
 
 }
@@ -290,7 +289,6 @@ div a{
 }
 
 *{
-
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -299,122 +297,127 @@ div a{
 
 .login{
 
+    
+    min-height: center;
+
+}
+
+.fundo {
+
+    background-color: #ffffff;
+    height: calc(100vh - 110px);
     display: flex;
     justify-content: center;
     align-items: center;
-    min-height: 100vh;
-    background: seagreen;
-
+    background-size: cover;
+    background-position: center;
 }
 
-.proteger {
-
+.wrapper{
     width: 420px;
-    background: purple;
-    color: #fff;
+    background: transparent;
+    border: 2px solid rgba(0, 0, 0, 0.2);
+    backdrop-filter: blur(20px);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.12);
+    color: #000000;
     border-radius: 10px;
     padding: 30px 40px;
-
 }
 
-.proteger h1 {
-
+.wrapper h1{
     font-size: 36px;
     text-align: center;
-
+    color: black;
 }
 
-.proteger .entrada{
+.wrapper .input-box{
     position: relative;
     width: 100%;
     height: 50px;
     margin: 30px 0;
+    color: black;
 }
 
-.entrada input{
-
+.input-box input{
     width: 100%;
     height: 100%;
     background: transparent;
     border: none;
     outline: none;
-    border: 2px solid rgba(255, 255, 255, .2);
+    border: 2px solid rgba(255, 255, 255, 0.2);
     border-radius: 40px;
     font-size: 16px;
-    color: #fff;
+    color: #ffffff;
     padding: 20px 45px 20px 20px;
+    color: black;
 
 }
 
-.entrada input::placeholder{
-
-    color: #fff;
+.input-box input::placeholder{
+    color: #000000;
 }
 
-.entrada i{
+.input-box i{
     position: absolute;
     right: 20px;
     top: 50%;
     transform: translateY(-50%);
     font-size: 20px;
+
 }
 
-.proteger .Esqueceu-sua-senha{
-
+.wrapper .remember-forgot{
     display: flex;
     justify-content: space-between;
     font-size: 14.5px;
     margin: -15px 0 15px;
+    color: black;
 }
 
-.Esqueceu-sua-senha label input{
-
+.remember-forgot label input{
     accent-color: #fff;
     margin-right: 3px;
-
 }
 
-.Esqueceu-sua-senha a{
-
+.remember-forgot a{
     color: #fff;
     text-decoration: none;
-
+    color: black;
 }
 
-.Esqueceu-sua-senha a:hover{
-
-    text-decoration: underline;
+.remember-forgot a:hover{
+    text-decoration: none;
+    color: black;
 }
 
-.proteger .btn{
-
+.wrapper .btn{
     width: 100%;
     height: 45px;
-    background: #fff;
+    background: #ffffff;
     border: none;
     outline: none;
     border-radius: 40px;
     box-shadow: 0 0 10px rgba(0, 0, 0, .1);
+    cursor: pointer;
     font-size: 16px;
     color: #333;
-    font-weight: 600;
-
+    font-weight: 6000;
 }
 
-.proteger .link-de-registro{
+.wrapper .register-link{
     font-size: 14.5px;
     text-align: center;
     margin: 20px 0 15px;
+    color: black;
 }
 
-.link-de-registro p a{
-
+.register-link p a{
     color: #fff;
     text-decoration: none;
-    font-weight: 600;
+    font-size: 600;
+    color: black;
 }
 
-.link-de-registro p a:hover{
-
+.register-link p a:hover {
     text-decoration: underline;
 }
