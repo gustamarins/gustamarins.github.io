@@ -120,7 +120,6 @@ body{
 
 
 .cards{
-
     padding-top: 100px;
     display: flex;
     gap: 50px;
@@ -476,7 +475,7 @@ ul{
     position: absolute;
     left: 0;
     bottom: -10px;
-    background-color: #e91e63;
+    background-color: #ffffff;
     height: 2px;
     box-sizing: border-box;
     width: 50px;
@@ -537,7 +536,7 @@ ul{
 .footer-col img{
     height: 190px;
     color: #ffffff;
-    margin-left: -60px;
+
 }
 
 .footer-col .letras{
@@ -545,25 +544,26 @@ ul{
     text-align: center;
 }
 
-.left-side{
+.fotos{
     display: flex;
     flex-direction: column;
+    gap: 10px;
+    align-items: center;
 }
 
-.select-image{
-    max-width: 400px;
+.principal{
+    width: 140px;
+    height: 140px;
+    background-color: tomato;
 }
 
-.select-image img{
-    width: 100%;
-}
-
-.thumbnails{
+.outras{
     display: flex;
-    justify-content: space-evenly;
-    max-width: 400px;
+    gap: 10px;
 }
 
-.thumbnail img{
-    width: 100;
+.outras div{
+    background-color: chocolate;
+    width: 20px;
+    height: 20px;
 }
