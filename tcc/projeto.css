@@ -544,26 +544,39 @@ ul{
     text-align: center;
 }
 
-.fotos{
+.fora{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: calc(100vh - 85px);
+}
+.right-side{
+    display: flex;
+}
+
+.left-side{
     display: flex;
     flex-direction: column;
-    gap: 10px;
-    align-items: center;
 }
 
 .principal{
-    width: 140px;
-    height: 140px;
-    background-color: tomato;
+    max-width: 400px;
+}
+
+.principal img{
+    width: 100%;
 }
 
 .outras{
     display: flex;
+    justify-content: space-evenly;
+    max-width: 400px;
     gap: 10px;
 }
 
-.outras div{
-    background-color: chocolate;
-    width: 20px;
-    height: 20px;
+.outras img{
+    width: 90.5x;
+    height: 90.5px;
+    border-radius: 10px;
 }
