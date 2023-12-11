@@ -46,7 +46,7 @@ function soma(){
 soma +=2
 
 function soma(){
-    if(document.getElementById('entrada').value += pessoa A){
+    if(document.getElementById('entrada').value += 2){
        resultado += parseInt(document.getElementById('entrada').value)
     }
     }
