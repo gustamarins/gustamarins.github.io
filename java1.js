@@ -1,52 +1,17 @@
-//alert('Olá mundo')
-//console.log('testando console aqui')
-//document.write('testando algo')
-//document.getElementById('titulo').innerHTML = 'olá pessoal'
+function calcular(){
 
-/*a = 1
-b = 2
-c = a+b
+    n1 = parseInt(document.getElementById('n1').value)
+    n2 = parseInt(document.getElementById('n2').value)
 
-typeof(c)
-alert(c)
-*/
-
-/*Aumentar
-clicks = 0
-
-function teste(){
-    clicks += 1
-    document.getElementById('contagem').innerHTML = clicks 
-    if(clicks >= 10){
-        document.getElementById('contagem').style.Color = 'red'
-    }
+    //alert(' A soma é ' + (n1+n2))
+    document.getElementById('resultado').innerHTML = 'A soma é: '+ (n1+n2)
 }
-*/
 
-/*SOMA
-numero = 0
+function logar(){
 
-function soma(){
-    if(document.getElementById('resulado').value != ''){
-       numero += parseInt(document.getElementById('entrada').value)
-    }
-    document.getElementById('resultado').innerHTML = numero
+    nome = document.getElementById('nome').value
+    idade = parseInt(document.getElementById('idade').value)
 
-    if(numero > 10){
-        mensagem = ' Você passou de 10!'
-    }
-    if(numero > 100){
-        mensagem = ' Você passou de 100!'
-    }
+    document.getElementById('mensagem').innerHTML = 'Boas vindas ' + nome+'!'
 
-    document.getElementById('resultado').innerHTML += mensagem
-    document.getElementById('entrada').value = ''
-}*/         
-
-soma +=2
-
-function soma(){
-    if(document.getElementById('entrada').value += 2){
-       resultado += parseInt(document.getElementById('entrada').value)
-    }
-    }
+}
